@@ -100,3 +100,15 @@ body {
 .mastfoot {
   color: rgba(255, 255, 255, .5);
 }
+
+
+.box-arquivo{
+  width: 100%;
+  height: 100%;
+
+  display: block;
+}
+
+.carrosel-arquivos{
+  margin-top: 5px;
+}
