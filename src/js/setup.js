@@ -1,5 +1,3 @@
-
-
 var owl = $('.owl-carousel');
 owl.owlCarousel({
     items:4,
@@ -9,4 +7,3 @@ owl.owlCarousel({
     autoplayTimeout:1000,
     autoplayHoverPause:true
 });
-
