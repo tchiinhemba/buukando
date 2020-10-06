@@ -1,8 +1,21 @@
 
+var principal = document.querySelector('#principal');
+var arquivos = document.querySelector('#arquivos');
+var sobre = document.querySelector('#sobre');
+
+var links = [ '/index.html', '/arquivos.html', '/sobre.html'];
 
 
+function atual() {
 
+    let atual = window.location.pathname;
 
+    for(let i = 0; i <= links.length; i++){
+
+        if(atual == links[i]){
+
+    }
+}
 
 // EasterEgg
 var foto = document.querySelector('#foto');
