@@ -1,25 +1,18 @@
 
 
-var foto = document.querySelector('#foto');
+
 
 
 
 // EasterEgg
+var foto = document.querySelector('#foto');
 
-foto.onclick = function(){ window.open(
-    'https://drive.google.com/drive/folders/1qtxttmJeNK8ZmHSCx_UfsqmbOFu1H_y6?usp=sharing', '_blank'
-)};
-foto.addEventListener('click', function(){ window.open(
-    'https://drive.google.com/drive/folders/1qtxttmJeNK8ZmHSCx_UfsqmbOFu1H_y6?usp=sharing', '_blank'
-)}, false);
-
-
-document.removeEventListener('click', function(){
+var carregarFoto = function() {
     window.open(
-        'https://drive.google.com/drive/folders/1qtxttmJeNK8ZmHSCx_UfsqmbOFu1H_y6?usp=sharing', '_blank'
+    'https://drive.google.com/drive/folders/1qtxttmJeNK8ZmHSCx_UfsqmbOFu1H_y6?usp=sharing', '_blank'
     )
-}, true);
-
+};
+foto.addEventListener('click', carregarFoto, false);
 
 
 // footer
