@@ -17,7 +17,6 @@
     <!-- css -->
     <link href="src/style/main.css" rel="stylesheet">
     <link rel="stylesheet" href="src/style/responsive.css">
-    <link rel="stylesheet" href="src/style/svg.css">
 
     <!-- icone -->
     <link rel="shortcut icon" type="imagem/x-icon" href="src/img/bukando.png">
@@ -35,9 +34,9 @@
             <div class="inner">
                 <h3 class="masthead-brand">Buukando</h3>
                 <nav class="nav nav-masthead justify-content-center">
-                    <a class="nav-link" href="index.html">Principal</a>
-                    <a class="nav-link active" href="arquivos.html">Arquivos</a>
-                    <a class="nav-link" href="sobre.html">Sobre</a>
+                    <a id="principal" class="nav-link">Principal</a>
+                    <a id="arquivos" class="nav-link active">Arquivos</a>
+                    <a id="sobre" class="nav-link">Sobre</a>
                 </nav>
             </div>
         </header>
@@ -49,10 +48,10 @@
                 <div class="owl-carousel owl-theme">
         
                     <div class="item">
-                        <img onclick="verc()" class="box-arquivo" src="src/svg/c.svg" id="langc">
+                        <img class="box-arquivo" src="src/svg/c.svg" id="langc">
                     </div>
                     <div class="item">
-                        <img onclick="vercpp()" class="box-arquivo" src="src/svg/cpp-sq.svg" id="lang-cpp">
+                        <img class="box-arquivo" src="src/svg/cpp-sq.svg" id="lang-cpp">
                     </div>
                     <div class="item">
                         <img class="box-arquivo" src="src/svg/cs-sq.svg" id="lang-cs">
@@ -116,7 +115,7 @@
             </div>
 
             <p class="lead">
-                <a href="#" class="btn btn-lg btn-secondary" onclick="vertudo()"> <i class="far fa-bookmark"></i> Acessar Arquivos</a>
+                <a class="btn btn-lg btn-secondary" onclick="vertudo()"> <i class="far fa-bookmark"></i> Acessar Arquivos</a>
             </p>
         </main>
         
@@ -125,7 +124,7 @@
                 
                 <p>
                     Copyright &copy;
-                    <a href="https://github.com/tchiinhemba" target="_blank">Tchiinhemba</a>
+                    <a onclick="abrirGithub()" id="fot">Tchiinhemba</a>
                 </p>
             </div>
         </footer>

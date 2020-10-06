@@ -1,26 +1,16 @@
+var pagIndex = document.querySelector('#principal');
+var gitHb = document.querySelector('#nomefooter');
+
+pagIndex.onclick = function() {
+    pagIndex.href = "sobre.html"
+};
 
 
-function verc() {
+
+// footer
+
+function abrirGithub() {
     window.open(
-        'https://drive.google.com/drive/folders/1BHGZOrX2KBBdgrHl-Pa_XY6pEnm9ljxg?usp=sharing', '_blank'
-    )
-}
-function vercpp() {
-    window.open(
-        ''
-    )
-}
-
-
-function vertudo() {
-    window.open(
-        'https://drive.google.com/drive/folders/1a_1mL-ktVT-qiCxBj0ofNwRGOY88WSyf?usp=sharing', '_blank'
-    )
-}
-
-
-function easterEgg() {
-    window.open(
-        'https://drive.google.com/drive/folders/1qtxttmJeNK8ZmHSCx_UfsqmbOFu1H_y6?usp=sharing', '_blank'
+        'https://github.com/tchiinhemba', '_blank'
     )
 }

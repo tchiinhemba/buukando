@@ -13,3 +13,12 @@
       font-size: 3.5rem;
     }
 }
+
+a {
+
+  cursor: pointer; 
+}
+
+#fot:hover{
+  color: white;
+}
