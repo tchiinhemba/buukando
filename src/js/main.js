@@ -1,23 +1,16 @@
 
-var principal = document.querySelector('#principal');
-var arquivos = document.querySelector('#arquivos');
-var sobre = document.querySelector('#sobre');
 
-var links = [ '/index.html', '/arquivos.html', '/sobre.html'];
+document.querySelector('#principal').addEventListener('click', function(){
+    window.location.assign('index.html');
+}, false);
 
+document.querySelector('#arquivos').addEventListener('click', function(){
+    window.location.assign('arquivos.html');
+}, false);
 
-function atual() {
-
-    let atual = window.location.pathname;
-
-    for(let i = 0; i <= links.length; i++){
-
-        if(atual == links[i] && pricipal){
-            principal.href = links[0];
-    }
-}
-
-atual();
+document.querySelector('#sobre').addEventListener('click', function(){
+    window.location.assign('sobre.html');
+}, false);
 
 
 // EasterEgg
