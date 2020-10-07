@@ -12,6 +12,9 @@ document.querySelector('#sobre').addEventListener('click', function(){
     window.location.assign('sobre.html');
 }, false);
 
+document.querySelector('#btn-insta').addEventListener('click', function(){
+    window.location.assign('https://www.instagram.com/tchiinhemba/')ç
+}, false);
 
 // EasterEgg
 var foto = document.querySelector('#foto');
