@@ -13,7 +13,7 @@ document.querySelector('#sobre').addEventListener('click', function(){
 }, false);
 
 document.querySelector('#btn-insta').addEventListener('click', function(){
-    window.location.assign('https://www.linkedin.cn/in/tchiinhemba/');
+    window.open('https://www.linkedin.cn/in/tchiinhemba/', '_blank');
 }, false);
 
 // EasterEgg
