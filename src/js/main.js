@@ -12,10 +12,13 @@ function atual() {
 
     for(let i = 0; i <= links.length; i++){
 
-        if(atual == links[i]){
-
+        if(atual == links[i] && pricipal){
+            principal.href = links[0];
     }
 }
+
+atual();
+
 
 // EasterEgg
 var foto = document.querySelector('#foto');
@@ -34,4 +37,4 @@ function abrirGithub() {
     window.open(
         'https://github.com/tchiinhemba', '_blank'
     )
-}
+};
