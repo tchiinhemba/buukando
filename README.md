@@ -1,4 +1,6 @@
 # Buukando
 
 Maior biblioteca de livros em português para programadores! 100% gratuitos! 
-![Click aqui para acessar](https://tchiinhemba.github.io/buukando/)
+<p>
+  <a href="https://tchiinhemba.github.io/buukando/" target="_black">Clique aqui para acessar</a>
+</p>
