@@ -20,9 +20,7 @@ document.querySelector('#btn-insta').addEventListener('click', function(){
 var foto = document.querySelector('#foto');
 
 var carregarFoto = function() {
-    window.open(
-    'https://drive.google.com/drive/folders/1qtxttmJeNK8ZmHSCx_UfsqmbOFu1H_y6?usp=sharing', '_blank'
-    )
+    window.location.assign('https://drive.google.com/drive/folders/1qtxttmJeNK8ZmHSCx_UfsqmbOFu1H_y6?usp=sharing');
 };
 foto.addEventListener('click', carregarFoto, false);
 
